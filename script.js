@@ -23,10 +23,11 @@ gsap.from('.second h1',{
 })
 
 gsap.from('.third h1',{
-  y: 40,
   opacity: 0,
+  y: 40,
   duration: 0.5,
-  stagger: 0.1,
+  delay: .5,
+  stagger: 0.2,
   scrollTrigger: {
       trigger: ".third",
       scroller: "body",

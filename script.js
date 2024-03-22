@@ -7,13 +7,11 @@ gsap.from('.first h1',{
 })
 
 gsap.from('.second h1',{
-  duration: 1, 
-  delay: 0.5, 
-  opacity: 0, 
-  rotationX: -80, 
-  force3D: true, 
-  transformOrigin: "top center -50", 
-  stagger: 0.1,
+  opacity: 0,
+  y: 40,
+  duration: 0.5,
+  delay: .5,
+  stagger: 0.2,
   scrollTrigger: {
       trigger: ".second",
       scroller: "body",

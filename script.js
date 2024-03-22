@@ -55,10 +55,11 @@ gsap.from('.fourth h1',{
 })
 
 gsap.from('.Fifth h1',{
-  y: 40,
   opacity: 0,
+  y: 40,
   duration: 0.5,
-  stagger: 0.1,
+  delay: .5,
+  stagger: 0.2,
   scrollTrigger: {
       trigger: ".Fifth",
       scroller: "body",

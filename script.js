@@ -48,7 +48,6 @@ gsap.from('.fourth h1',{
       start: "top 30%",
       end: "top -20%",
       scrub: 0.2,
-      markers: true
   }
 })
 
